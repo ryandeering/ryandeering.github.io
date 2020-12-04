@@ -1,0 +1,130 @@
+@import url(//db.onlinewebfonts.com/c/136438630f56f129f62eeaaae5c0354e?family=Euclid+Flex+Trial);	
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+#aboutMe, #education, #projects, #workExp{
+		margin-left: 1em; 
+		padding-top:5em;
+	}
+	  
+
+
+#head {
+  background: #f4f4f4 url(/img/headerr.jpg) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 16em 0;
+}	  
+
+header p{
+		color: black;
+		padding: 1em 10em 0em 10em;
+}
+
+
+#header-nav {
+    background: #141414;
+    padding: 0px 0px;
+    margin:auto;
+	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
+
+}
+
+  
+	#welcomeButtons {
+		
+		display: table;
+		margin: 0 auto;
+	}
+
+
+#temp{
+    outline-color: black;
+    outline-style: solid;
+    outline: 3em;
+}
+
+.main-nav{
+    width:120%;
+}
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+    
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+
+	
+  body {
+    background: #fff;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #888888;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4em;
+    color: #222222;
+    font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+   
+}
+
+
+
+h3 {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #222222;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+h6 {
+    font-size: 16px;
+    color: #888888;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+ 
+    margin: 0 0 60px 0;
+}
+
+p {
+    line-height: 2em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 38px;
+    color: #222222;
+    font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: left;
+    padding-left: 1em;
+    text-transform: uppercase;
+}
