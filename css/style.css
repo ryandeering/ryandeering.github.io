@@ -12,7 +12,7 @@
   background: #f4f4f4 url(/img/headerr.jpg) top center;
   background-size: cover;
   color: #7C7C7C;
-  padding: 16em 0;
+  padding: 8em 0;
 }	  
 
 header p{
@@ -30,11 +30,10 @@ header p{
 }
 
   
-	#welcomeButtons {
-		
-		display: table;
-		margin: 0 auto;
-	}
+#welcomeButtons {		
+display: table;
+margin: 0 auto;
+}
 
 
 #temp{
@@ -42,6 +41,11 @@ header p{
     outline-style: solid;
     outline: 3em;
 }
+
+#temp p{
+    margin:auto;
+}
+
 
 .main-nav{
     width:120%;
@@ -70,7 +74,6 @@ header p{
 
 }
 
-
 	
   body {
     background: #fff;
@@ -82,7 +85,7 @@ header p{
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
     color: #222222;
     font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
     font-weight: normal;
@@ -115,6 +118,7 @@ h6 {
 
 p {
     line-height: 2em;
+    float: right;
     margin: 0;
 }
 
@@ -127,4 +131,15 @@ h4 {
     text-align: left;
     padding-left: 1em;
     text-transform: uppercase;
+}
+
+img , p {
+  display: inline-block;
+    overflow: auto;
+}
+
+img {
+display: inline-block;
+height: 300px;
+float: left;
 }
