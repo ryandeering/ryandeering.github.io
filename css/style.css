@@ -118,8 +118,15 @@ h6 {
 
 p {
     line-height: 2em;
-    float: right;
+    font-size: 32px;
+    float: left;
     margin: 0;
+}
+
+p.welcome{
+overflow: auto;
+margin-right: auto;
+text-align: left;
 }
 
 h4 {
@@ -135,11 +142,12 @@ h4 {
 
 img , p {
   display: inline-block;
-    overflow: auto;
 }
 
+
+
 img {
-display: inline-block;
-height: 300px;
+height: auto;
 float: left;
+margin-left: 10.5em;
 }
