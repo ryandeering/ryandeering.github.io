@@ -118,16 +118,30 @@ h6 {
 
 p {
     line-height: 2em;
-    font-size: 32px;
+    font-size: 5vm;
     float: left;
     margin: 0;
 }
 
 p.welcome{
+font-size:1.2em;
 overflow: auto;
-margin-right: auto;
-text-align: left;
+margin-right: 0em;
+text-align: center;
+padding-left: 3em;
 }
+
+p.skillz{
+color: #444444
+font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+font-size:1.2em;
+overflow: auto;
+margin-right: 0em;
+text-align: center;
+padding-left: 12em;
+    
+}
+
 
 h4 {
     font-size: 38px;
@@ -140,8 +154,18 @@ h4 {
     text-transform: uppercase;
 }
 
+h4.blanco{
+color: #f8fcfc; 
+}
+
+#skills{
+    background-color: #07100f;
+    
+}
+
 img , p {
   display: inline-block;
+    
 }
 
 
@@ -149,5 +173,21 @@ img , p {
 img {
 height: auto;
 float: left;
-margin-left: 10.5em;
+margin-left: 7em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+p.welcome {
+    font-size: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+p.skillz {
+    font-size: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
