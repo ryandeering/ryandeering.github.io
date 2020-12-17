@@ -7,18 +7,27 @@
     font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 #aboutMe, #education, #projects, #workExp, #employment{
 		margin-left: 1em; 
 		padding-top:5em;
 	}
 	  
 
+    #education p{
+        font-size:1.4vw;
+    }
+
 
 #head {
   background: #f4f4f4 url(/img/header.jpg) top center;
   background-size: cover;
   color: #7C7C7C;
-  padding: 8em 0;
+  padding: 3em 0;
 }	  
 
 header p{
@@ -39,6 +48,10 @@ header p{
 display: table;
 margin: 0 auto;
 }
+
+
+
+
 
 
 #temp{
@@ -149,7 +162,7 @@ color: #222222;
 }
 
 p.welcome{
-font-size:1.2em;
+font-size:0.8em;
 overflow: auto;
 margin-right: 0em;
 text-align: center;
@@ -160,7 +173,7 @@ p.skillz{
 color: #444444
 font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 
-font-size:1.2em;   
+font-size:1.0em;   
 }
 
 
@@ -183,9 +196,6 @@ img , p {
     
 }
 
-#tab{
-    background-color: aliceblue;
-}
 
 
 #black{
@@ -247,7 +257,7 @@ text-align: center;
 .service_block h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 1.5625em;
+    font-size: 1em;
     color: #fff;
 margin: 2.1875em 0 0.9375em; 
 }
@@ -255,7 +265,7 @@ margin: 2.1875em 0 0.9375em;
 color:#fff;
 }
 .service_block p {
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #fff;
     margin: 0 0 2.1875em 0; 
 }
@@ -353,7 +363,6 @@ color:#fff;
     backgroundcolor:grey;
 }
 
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -383,7 +392,29 @@ border-color: #46b8da;}
       font-size: 1.8em;  
     }
     
+    p{
+      text-size-adjust: auto;
+    }
     
+    p.welcome {
+    font-size: .5em;
+  }
+    
+     .text{
+        font-size:3vw;
+    }
+    
+    #education ul,li{
+        font-size:2vw;
+    }
+    
+      #education h3{
+        font-size:2.6vw;
+    }
+
+    #education p{
+        font-size:2.2vw;
+    }
     
     
 }
@@ -396,18 +427,57 @@ border-color: #46b8da;}
 
 @media screen and (max-width: 37.5em) {
 
+    
+    #head{
+          padding: 1em 0;
+    }
+    
+
+    #education ul,li{
+        font-size:3vw;
+    }
+    
+    #education h3{
+        font-size:4vw;
+    }
+    
+    #education p{
+        font-size:4vw;
+    }
+    
+    
     h5{
         font-size:0.5em;
     }
     
+    p{
+      font-size:3vw;
+    }
+    
+    .text{
+        font-size:4vw;
+    }
+    
+    .contact_text{
+        font-size:6vw;
+    }
+    
+    img.pfp{
+        padding-left: 5em;
+    }
+    
+    
+    skills.p{
+        font-size:.9em;
+    }
     
     p.welcome {
-    font-size: 0.9em;
-    padding-left: 2em;
+    font-size: .8em;
     padding-right: 2em;
   }
 
     .service_icon{
+        
     }
     
     .service_block p {
