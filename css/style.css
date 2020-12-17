@@ -372,9 +372,14 @@ color: #191919;
 background-color: #ededed;
 border-color: #46b8da;}
 
-s
 @media screen and (max-width: 37.5em) {
-p.welcome {
+
+    h5{
+        font-size:0.5em;
+    }
+    
+    
+    p.welcome {
     font-size: 0.9em;
     padding-left: 2em;
     padding-right: 2em;
