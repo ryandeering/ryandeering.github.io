@@ -32,6 +32,8 @@
                     stickyToggle(sticky, stickyWrapper, $(window));
                 });
             });
+
+
 			
 
 var slideIndex = 1;

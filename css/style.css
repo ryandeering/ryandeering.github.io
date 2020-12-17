@@ -362,9 +362,7 @@ color:#fff;
   background-color: #717171;
 }
 
-.active{
-    backgroundcolor:grey;
-}
+
 
 /* Fading animation */
 .fade {
@@ -408,19 +406,19 @@ border-color: #46b8da;}
         font-size:1.2vw;
     }
     
+ #education p{
+        font-size:1.3vw;
+    }
 
+.tab-content{
+    padding-left: 1em;
+}
 
 @media screen and (max-width: 1080px) {
-    
-    
-    
-    
     
     #ex1,ex2,ex3,ex4{
         font-size:0.69em;
     }
-    
-    
     
     h2{
       font-size: 1.8em;  
@@ -445,6 +443,9 @@ border-color: #46b8da;}
       #education h3{
         font-size:2.6vw;
     }
+     #education p{
+        font-size:2.2vw;
+    }
 
     
         .service_block p {
@@ -456,8 +457,7 @@ margin-bottom: 1.25em;
     .service_block h3{
        font-size: 1em;
     }
-    
-    
+
     
     
     
@@ -470,7 +470,23 @@ margin-bottom: 1.25em;
 
 
 @media screen and (max-width: 37.5em) {
+.service_icon i {
+font-size: 2.5em;
+}
+    
+    
+            .service_block p {
+padding-top: 5em;
+font-size: 0.6em; 
+margin: 0em;
+margin-bottom: 2em;
+}
 
+    .service_block h3{
+       font-size: 1em;
+    }
+
+    
     
     #ex1,ex2,ex3,ex4{
         font-size:0.5em;
