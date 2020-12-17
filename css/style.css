@@ -23,6 +23,7 @@ html {
     }
 
 
+
 #head {
   background: #f4f4f4 url(/img/header.jpg) top center;
   background-size: cover;
@@ -120,7 +121,9 @@ h3{
    
 }
 
-
+#footer{
+    background-color:grey;
+}
 
 
 
@@ -137,6 +140,9 @@ h4 {
     text-transform: uppercase;
 }
 
+h5{
+    color:black;
+}
 
 
 h6 {
