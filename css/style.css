@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 @import url(//db.onlinewebfonts.com/c/136438630f56f129f62eeaaae5c0354e?family=Euclid+Flex+Trial);
+@font-face {
+    font-family: F16;
+    src: url("fonts/F16_Panel Font.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 #aboutMe, #education, #projects, #workExp, #employment{
 		margin-left: 1em; 
@@ -22,9 +28,9 @@ header p{
 
 #header-nav {
     background: #141414;
-    padding: 0px 0px;
+    padding: 0em 0em;
     margin:auto;
-	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
+	box-shadow: 0.0625em 0.0625em 0.25em rgba(60, 60, 60, 0.44);
 
 }
 
@@ -88,16 +94,16 @@ h2 {
     color: #222222;
     font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
     font-weight: normal;
-    margin: 0px 0 25px 0;
+    margin: 0em 0 1.5625em 0;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+    text-shadow: 0 0 0.0625em 0em white inset, 0 0 0.0625em 0em white;
    
 }
 
 h3{
     font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
-    text-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+    text-shadow: 0 0 0.0625em 0em white inset, 0 0 0.0625em 0em white;
    
 }
 
@@ -108,25 +114,26 @@ h3{
 
 
 h4 {
+    font-size: 38px;
     color: #222222;
     font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
-    text-align: center;
+    text-align: left;
+    padding-left: 1em;
     text-transform: uppercase;
-    text-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
-   
 }
 
 
+
 h6 {
-    font-size: 16px;
+    font-size: 1em;
     color: #888888;
     font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
  
-    margin: 0 0 60px 0;
+    margin: 0 0 3.75em 0;
 }
 
 p {
@@ -157,16 +164,6 @@ font-size:1.2em;
 }
 
 
-h4 {
-    font-size: 38px;
-    color: #222222;
-    font-family: "Euclid Flex Trial", "Trebuchet MS", Arial, sans-serif;
-    font-weight: normal;
-    margin: 0px 0 25px 0;
-    text-align: left;
-    padding-left: 1em;
-    text-transform: uppercase;
-}
 
 h4.blanco{
 color: #f8fcfc; 
@@ -200,7 +197,6 @@ img , p {
 img.pfp{
 height: auto;
 float: left;
-margin-left: 7em;
 }
 
 #service h2{
@@ -208,7 +204,7 @@ margin-left: 7em;
 
 }
 .service_wrapper {
-    padding: 40px 0 40px;
+    padding: 2.5em 0 2.5em;
 }
 
 .service_section {
@@ -216,15 +212,15 @@ margin-left: 7em;
 
 .service_block {
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px; 
+    padding-left: 0.9375em;
+    padding-right: 0.9375em; 
 	position: relative;
 }
 
 .service_icon {  
-    width: 90px;
-    height: 85px;
-    margin: 0px auto 50px; 
+    width: 5.625em;
+    height: 5.3125em;
+    margin: 0em auto 3.125em; 
 }
 
  
@@ -232,17 +228,17 @@ margin-left: 7em;
 .service_icon span {
     background: transparent; 
     display: block;
-    height: 95px;
-    width: 95px;
-    padding: 6px 0 0;
+    height: 5.9375em;
+    width: 5.9375em;
+    padding: 0.375em 0 0;
 }
 
 .service_icon i {
   color: #FFFFFF;
-font-size: 40px;
+font-size: 2.5em;
 margin-top: 0;
 position: relative;
-top: 20px;
+top: 1.25em;
 z-index: 20;
 display: block;
 text-align: center;
@@ -251,9 +247,9 @@ text-align: center;
 .service_block h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5625em;
     color: #fff;
-margin: 35px 0 15px; 
+margin: 2.1875em 0 0.9375em; 
 }
 #service h6{
 color:#fff;
@@ -261,7 +257,7 @@ color:#fff;
 .service_block p {
     font-size: 1.2em;
     color: #fff;
-    margin: 0 0 35px 0; 
+    margin: 0 0 2.1875em 0; 
 }
 
 #skills img{
@@ -280,7 +276,7 @@ color:#fff;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 62.5em;
   position: relative;
   margin: auto;
 }
@@ -292,19 +288,19 @@ color:#fff;
   top: 0;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -1.375em;
+  padding: 1em;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.1875em 0.1875em 0;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.1875em 0 0 0.1875em;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -314,13 +310,13 @@ color:#fff;
 
 /* Caption text */
 .text {
-  padding: 8px 12px;
+  padding: 0.5em 0.75em;
   position: absolute;
-  bottom: 8px;
+  bottom: 0.5em;
   width: 100%;
   text-align: center;
   color: white;
-    font-size: 22px;
+    font-size: 1.375em;
     text-shadow:
         0.07em 0 black,
         0 0.07em black,
@@ -331,8 +327,8 @@ color:#fff;
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 0.75em;
+  padding: 0.5em 0.75em;
   position: absolute;
   top: 0;
 }
@@ -340,16 +336,16 @@ color:#fff;
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
+  height: 0.8125em;
+  width: 0.8125em;
+  margin: 0 0.125em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+#hobbies .active, .dot:hover {
   background-color: #717171;
 }
 
@@ -376,7 +372,8 @@ color: #191919;
 background-color: #ededed;
 border-color: #46b8da;}
 
-@media screen and (max-width: 600px) {
+s
+@media screen and (max-width: 37.5em) {
 p.welcome {
     font-size: 0.9em;
     padding-left: 2em;
@@ -387,13 +384,17 @@ p.welcome {
     }
     
     .service_block p {
-font-size: 14px; 
-margin: 0px;
-margin-bottom: 20px;
+font-size: 0.875em; 
+margin: 0em;
+margin-bottom: 1.25em;
 }
 
     .service_block h3{
-       font-size: 16px;
+       font-size: 1em;
+    }
+    
+    img.pfp{
+display:block;margin:0 auto;
     }
     
     
