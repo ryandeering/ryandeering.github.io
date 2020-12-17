@@ -97,7 +97,7 @@ h2 {
     margin: 0em 0 1.5625em 0;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 0.0625em 0em white inset, 0 0 0.0625em 0em white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #FFFF;
    
 }
 
@@ -349,6 +349,11 @@ color:#fff;
   background-color: #717171;
 }
 
+.active{
+    backgroundcolor:grey;
+}
+
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -371,6 +376,23 @@ color:#fff;
 color: #191919;
 background-color: #ededed;
 border-color: #46b8da;}
+
+@media screen and (max-width: 1080px) {
+    
+    h2{
+      font-size: 1.8em;  
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 37.5em) {
 
