@@ -1,4 +1,4 @@
-@font-face {font-family: "Euclid Flex Trial"; src: url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.eot"); src: url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.woff") format("woff"), url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/136438630f56f129f62eeaaae5c0354e.svg#Euclid Flex Trial") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/136438630f56f129f62eeaaae5c0354e?family=Euclid+Flex+Trial);
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 #aboutMe, #education, #projects, #workExp, #employment{
