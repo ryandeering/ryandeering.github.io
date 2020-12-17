@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@font-face {
-    font-family: F16;
-    src: url("fonts/F16_Panel Font.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 @font-face {font-family: "Euclid Flex Trial";
-    src: url("fonts/136438630f56f129f62eeaaae5c0354e.eot"); /* IE9*/
-    src: url("fonts/136438630f56f129f62eeaaae5c0354e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fonts/136438630f56f129f62eeaaae5c0354e.woff2") format("woff2"), /* chrome firefox */
-    url("fonts/136438630f56f129f62eeaaae5c0354e.woff") format("woff"), /* chrome firefox */
-    url("fonts/136438630f56f129f62eeaaae5c0354e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    src: url("../fonts/136438630f56f129f62eeaaae5c0354e.eot"); /* IE9*/
+    src: url("../fonts/136438630f56f129f62eeaaae5c0354e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/136438630f56f129f62eeaaae5c0354e.woff2") format("woff2"), /* chrome firefox */
+    url("../fonts/136438630f56f129f62eeaaae5c0354e.woff") format("woff"), /* chrome firefox */
+    url("../fonts/136438630f56f129f62eeaaae5c0354e.ttf") format("truetype") /* chrome firefox opera Safari, Android, iOS 4.2+*/
 }
 
 html {
