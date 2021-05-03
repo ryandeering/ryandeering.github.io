@@ -7,9 +7,10 @@
       href="img/favicon.ico">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
       <script src="https://use.fontawesome.com/73aec09c77.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
@@ -33,12 +34,7 @@
       </header>
       <header id="header-nav">
          <div class="header_box">
-            <!--<div class="logo"><a href="#">Resume</a></div>-->
-            <nav class="navbar sticky-top navbar-inverse" role="navigation" data-toggle="sticky-onscroll">
-               <div class="navbar-header">
-                  <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-               </div>
-               <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <nav class="navbar fixed-top navbar-light bg-light">
                   <ul class="nav navbar-nav" id="mainNav">
                      <li><a href="#header" class="scroll-link">Home</a></li>
                      <li><a href="#skills" class="scroll-link">Skills</a></li>
@@ -121,45 +117,30 @@
       </section>
       <section>
          <div id="education">
+            <h4> Employment and Academic History </h4>
             <div class = "animate__animated animate__fadeInLeft">
                <div class="row">
-                  <h4> Employment and Academic History </h4>
-                   <br>
-                  <div class="col-md-3"> 
-                     <img src="img/tud.webp" alt="TUD logo">
-                  </div>
+                  
+                  <div class="col-md-3">
+                     <img class="img-responsive" src="img/tud.webp" alt="TUD logo" class="float-left">
+                     </div>
+                 
                   <div class="col-md-9">
-                     <h3>Technological University Dublin - Tallaght Campus <br> <br>Computing with Software Development (Hons. Bachelors of Science)  2017 - 2021</h3>
+                     
+                     <h3>Technological University Dublin - Tallaght Campus <br> <br></h3>
+                     <p><b>Computing with Software Development (Hons. Bachelors of Science)  2017 - 2021</b></p>
                   </div>
                </div>
                <br>
                 
-               <div class = "row">
-                  <div class="col-sm-2"></div>
-                  <div  class="col-sm-6">
-                   <ul class="nav nav-tabs">
-   <li class = "tab"><a href="#home-v" data-toggle="tab">1st Year</a></li>
-   <li class = "tab"><a href="#profile-v" data-toggle="tab">2nd Year</a></li>
-    <li class = "tab"><a href="#messages-v" data-toggle="tab">3rd Year</a></li>
-    <li class = "tab"><a href="#settings-v" data-toggle="tab">4th Year</a></li>
-</ul>
-<div class="tab-content">
- <div class="tab-pane active" id="home-v"><p class = "grades">Database Fundamentals: A <br>Object Oriented Systems Analysis: A <br>Operating System Fundamentals: A <br>Software Development 2: A <br>Web Design Fundamentals: A <br>Business & Information Systems: B+<br>Learning to Learn: B+<br>Social Media Communications: B+<br>Software Development 1: B+<br>Statistics: B+<br>Computer Architecture: B <br>Discrete Maths 1: B-</p> <br></div>
-                            <div class="tab-pane" id="profile-v"><p class = "grades"> Project: A <br>Client-Side Web Development: B+<br>Discrete Mathematics 2: B+<br>Information Security: B+<br>Management Science: B+<br>Network Fundamentals: B+<br>Routing & Switching Essentials: B+<br>Software Development 3: B+<br>Software Development 4: B+<br>Software Quality and Testing: B+<br>Advanced Database Technologies: B <br>Database Admin & Analysis: B <br> </p></div>
-                            <div class="tab-pane" id="messages-v"><p class = "grades">Advanced Database Technologies: B+<br>Data Structures & Algorithms: B+<br>Server-Side Web Development: B+<br>Data Analysis: B <br>Operating Systems: B <br>Cloud skills and Distributed Computing: B- <br>Experiential Learning: PS <br></p></div>
-                            <div class="tab-pane" id="settings-v"><p class = "grades">Interactive Digital Media <br>Project <br>Enterprise Application Development 1 <br>Information Management <br>Enterprise Application Architecture <br>Applied Machine Learning <br></p></div>
-</div>
-               </div>
-               <div>
-               </div>
-            </div>
+
          </div>
          <br>
          <div id="employment">
              <div class = "animate__animated animate__fadeInLeft">
             <div class = "row">
                <div class="col-md-3"> 
-                  <img src="img/deasp.webp" alt="DEASP logo">
+                  <img class="img-responsive" src="img/deasp.webp" alt="DEASP logo">
                </div>
                <div class="col-md-9">
                   <h3> Department of Employment Affairs and Social Protection <br> <br> Performance Engineer Intern (Executive Officer) January 2020 - August 2020</h3>
@@ -205,6 +186,7 @@
                            <a href="#ex1" rel="modal:open" style="color:rgb(255,255,255);">More </a>
                         </div>
                      </div>
+                     <br>
                      <div class="col-md-4 d-flex justify-content-center text-center ">
                         <div class="delay-03s animated wow zoomIn">
                            <span>
@@ -222,6 +204,7 @@
                            <a href="#ex2" rel="modal:open" style="color:rgb(255,255,255);">More </a>
                         </div>
                      </div>
+                     <br>
                      <div class="col-md-4 d-flex justify-content-center text-center">
                         <div class="delay-03s animated wow zoomIn">
                            <span>
@@ -239,6 +222,7 @@
                            <a href="#ex3" rel="modal:open" style="color:rgb(255,255,255);">More </a>
                         </div>
                      </div>
+                     <br>
                   </div>
                </div>
             </section>
@@ -318,11 +302,6 @@
          </div>
       </div>
           <div class="footer">
-              <div class="col-md-5"></div>
-          <div class="col-md-3">
-              <h5 color=black>2020 Ryan Deering. Photos my own.</h5>
-              </div>
-              <div class="col-"></div>
               
           
           </div>
